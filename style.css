@@ -1,0 +1,59 @@
+
+.nav-link {
+    text-align: right;
+}
+
+footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #e3f2fd;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.fotosgen{
+  position: relative;
+  display: inline-block;
+  margin:  auto;
+}
+
+
+.msg {
+  position: absolute;
+  left: 50px;
+  bottom: 10px;
+  margin: 0 auto;
+  padding: 10px 0;
+  background: #4aaaa5;
+  color: white;
+  font-size: 18px;
+  width: 100px;
+  text-align: center;
+}
+
+.allpics {
+  width: 90%;
+  padding: 10px;
+  margin: 20px auto;
+  border: 1px solid #dddddd;
+  background: white;
+}
+
+
+.lightblue {
+  background-color: lightblue;
+  margin: 10px;
+  padding: 10px;
+}
+
+.rec {
+  background: white;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+
+
