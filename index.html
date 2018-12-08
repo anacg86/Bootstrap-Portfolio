@@ -5,8 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+  <!--Bootstrap Link-->
+  <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/minty/bootstrap.min.css" rel="stylesheet" integrity="sha384-Qt9Hug5NfnQDGMoaQYXN1+PiQvda7poO7/5k4qAmMN6evu0oDFMJTyjqaoTGHdqf"
     crossorigin="anonymous">
+
   <link rel="stylesheet" type="text/css" href="style.css">
 
 
@@ -16,17 +18,18 @@
 </head>
 
 <body>
-
-  <nav class="navbar navbar-expand-lg navbar-light " style="background-color: white";>
-    <a class="navbar-brand" href="#" style="background-color: lightblue;">About Me</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary ">
+    <a class="navbar-brand" href="#">About Me</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01"
       aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse flex-md-row-reverse" id="navbarNav">
-      <ul class="navbar-nav">
+
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">About me <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -37,38 +40,71 @@
       </ul>
     </div>
   </nav>
-<div class="lightblue">
-  <div class="rec m-3 p-3">
+
+  <!--About me-->
+  <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h1>About Me</h1>
+        <br>
       </div>
-      <div class="row">
-        <div class="col-md-6">
-          <img src="images/cat.jpg"alt="image 300x300" width="300px">
-        </div>
-        <div class="col-md-6">
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis ex deserunt vero quia nisi, animi
-            soluta ducimus distinctio enim tenetur at optio modi obcaecati aliquam ab impedit saepe molestiae
-            aspernatur?</p>
-        </div>
       </div>
-    </div>
-  </div>
-</div>
-  <footer class="text-muted" style="background-color:grey";>
-    <div class="container">
-      <p style="color:white">Copyright</p>
-    </div>
-  </footer>
+    <div class="row">
+      <div class="col-md-3">
+          <div class="card" id="me" >
+            <img class="card-img-top" src="images/me - Copy.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Ana Cardenas</h5>
+              <p class="card-text">Get to know me a little bit better!</p>
+            </div>
+          </div>
+        </div>
+ 
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
+
+      <div class="col-md-3">
+        <div class="card" style="height: 25rem;">
+          <img class="card-img-top" src="images/Nutritionist.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Nutritionist</h5>
+            <p class="card-text">Area Obesity.Experience 8 years.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="height: 25rem;">
+          <img class="card-img-top" src="images/teaching.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Teaching</h5>
+            <p class="card-text">Masters degree. Experience 3 years.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="height: 25rem;">
+          <img class="card-img-top" src="images/coding.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Coding</h5>
+            <p class="card-text">In progress.</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+          <br>
+        </div>
+        </div>
+  </div>
 
 </body>
+
+<!--footer-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+  <p id="copyright" >Copyright 2018</p>
+  </div>
+</nav>
 
 </html>
